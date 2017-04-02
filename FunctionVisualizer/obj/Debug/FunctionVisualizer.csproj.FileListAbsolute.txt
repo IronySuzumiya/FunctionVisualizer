@@ -1,0 +1,1 @@
+c:\users\asus\documents\visual studio 2015\Projects\FunctionVisualizer\FunctionVisualizer\bin\Debug\FunctionVisualizer.exe.config
