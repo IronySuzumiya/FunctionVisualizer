@@ -1,9 +1,0 @@
-C:\Users\asus\Documents\GitHub\FunctionVisualizer\FunctionVisualizer\bin\Release\FunctionVisualizer.exe.config
-C:\Users\asus\Documents\GitHub\FunctionVisualizer\FunctionVisualizer\bin\Release\FunctionVisualizer.exe
-C:\Users\asus\Documents\GitHub\FunctionVisualizer\FunctionVisualizer\bin\Release\FunctionVisualizer.pdb
-C:\Users\asus\Documents\GitHub\FunctionVisualizer\FunctionVisualizer\bin\Release\FunctionAnalyzer.dll
-C:\Users\asus\Documents\GitHub\FunctionVisualizer\FunctionVisualizer\obj\Release\FunctionVisualizer.MainForm.resources
-C:\Users\asus\Documents\GitHub\FunctionVisualizer\FunctionVisualizer\obj\Release\FunctionVisualizer.Properties.Resources.resources
-C:\Users\asus\Documents\GitHub\FunctionVisualizer\FunctionVisualizer\obj\Release\FunctionVisualizer.csproj.GenerateResource.Cache
-C:\Users\asus\Documents\GitHub\FunctionVisualizer\FunctionVisualizer\obj\Release\FunctionVisualizer.exe
-C:\Users\asus\Documents\GitHub\FunctionVisualizer\FunctionVisualizer\obj\Release\FunctionVisualizer.pdb
