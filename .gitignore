@@ -32,4 +32,5 @@
 *.opensdf
 **/Debug/**
 **/Release/**
-**/Bin/**
+**/bin/**
+**/obj/**
