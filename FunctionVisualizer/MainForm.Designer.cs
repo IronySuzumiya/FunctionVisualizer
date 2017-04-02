@@ -33,6 +33,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnBeginRender = new System.Windows.Forms.Button();
             this.lblMessage = new System.Windows.Forms.Label();
+            this.pnlPaintBoard = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // label1
@@ -49,14 +50,14 @@
             this.txtFunctionInput.Location = new System.Drawing.Point(70, 13);
             this.txtFunctionInput.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtFunctionInput.Name = "txtFunctionInput";
-            this.txtFunctionInput.Size = new System.Drawing.Size(505, 23);
+            this.txtFunctionInput.Size = new System.Drawing.Size(485, 23);
             this.txtFunctionInput.TabIndex = 1;
             this.txtFunctionInput.TextChanged += new System.EventHandler(this.txtFunctionInput_TextChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(583, 16);
+            this.label2.Location = new System.Drawing.Point(561, 16);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(28, 17);
             this.label2.TabIndex = 2;
@@ -70,6 +71,7 @@
             this.btnBeginRender.TabIndex = 3;
             this.btnBeginRender.Text = "Begin Render";
             this.btnBeginRender.UseVisualStyleBackColor = true;
+            this.btnBeginRender.Click += new System.EventHandler(this.btnBeginRender_Click);
             // 
             // lblMessage
             // 
@@ -79,11 +81,20 @@
             this.lblMessage.Size = new System.Drawing.Size(0, 17);
             this.lblMessage.TabIndex = 4;
             // 
+            // pnlPaintBoard
+            // 
+            this.pnlPaintBoard.Location = new System.Drawing.Point(12, 77);
+            this.pnlPaintBoard.Name = "pnlPaintBoard";
+            this.pnlPaintBoard.Size = new System.Drawing.Size(577, 375);
+            this.pnlPaintBoard.TabIndex = 5;
+            this.pnlPaintBoard.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlPaintBoard_Paint);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(623, 370);
+            this.ClientSize = new System.Drawing.Size(601, 464);
+            this.Controls.Add(this.pnlPaintBoard);
             this.Controls.Add(this.lblMessage);
             this.Controls.Add(this.btnBeginRender);
             this.Controls.Add(this.label2);
@@ -94,6 +105,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "MainForm";
             this.Text = "Function Visualizer";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -106,6 +118,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnBeginRender;
         private System.Windows.Forms.Label lblMessage;
+        private System.Windows.Forms.Panel pnlPaintBoard;
     }
 }
 
