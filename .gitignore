@@ -26,3 +26,10 @@
 *.exe
 *.out
 *.app
+
+*.sdf
+*.suo
+*.opensdf
+**/Debug/**
+**/Release/**
+**/Bin/**
