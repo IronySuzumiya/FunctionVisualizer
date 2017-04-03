@@ -28,7 +28,7 @@ namespace FunctionVisualizer
         {
             try
             {
-                function = ExpressionParser.Parse(txtFunctionInput.Text);
+                function = ExpressionParser.Parse(txtFunctionInput.Text).Simplify();
                 lblMessage.Text = "[Function] Ready for: " + function + " = 0";
                 btnBeginRender.Enabled = true;
             }
