@@ -1,2 +1,2 @@
 # FunctionVisualizer
-Depending on Function Analyzer, render the functional image
+Depending on Function Analyzer, it renders the functional image.
